@@ -1,7 +1,7 @@
 import { Me, Experiences, Skills, Certificates, Reviews } from './about-data-type'
 
 export const me: Me = {
-  title: 'Who am i?',
+  title: 'Who am I?',
   description: [
     'I am a front-end developer with more than four years of experience who has worked with JavaScript, TypeScript, React.js, Style-component, SASS, and so on.',
     'I am working for Snapp, the largest ride-hailing company in the Middle East. Also, I used to work for a number of startup companies.',
