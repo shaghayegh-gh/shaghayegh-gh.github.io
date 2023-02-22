@@ -14,5 +14,7 @@ module.exports = {
     rules: {
       "@typescript-eslint/no-unused-vars": "error",
       "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+      '@typescript-eslint/no-var-requires': 0,
+      "@typescript-eslint/no-unsafe-assignment": "off"
     },
   };
