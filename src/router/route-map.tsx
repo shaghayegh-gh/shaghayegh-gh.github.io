@@ -1,7 +1,6 @@
-import { lazy } from "react";
 import  paths  from "./paths";
-const Home = lazy(() => import("../pages/home/home"));
-const About = lazy(() => import("../pages/about/about"));
+import Home from "../pages/home/home";
+import About from "../pages/about/about";
 
 export const map = [
   {
