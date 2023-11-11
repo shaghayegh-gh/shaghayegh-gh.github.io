@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Title = styled.h3`
   margin-bottom: 4.5rem;
-  text-align: center;
   font-size: ${({ theme }) => theme.fontSize.title};
   background: ${({ theme }) => theme.colors.background};
   -webkit-background-clip: text;
