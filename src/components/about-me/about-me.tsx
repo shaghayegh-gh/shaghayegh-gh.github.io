@@ -13,6 +13,7 @@ import { useTheme } from 'styled-components'
 import { Me } from 'data/about/about-data-type'
 import { ReactComponent as Linkedin } from 'images/about-me/linkedin.svg'
 import { ReactComponent as Github } from 'images/about-me/github.svg'
+import { ReactComponent as Medium } from 'images/about-me/medium.svg'
 type AboutMeProps = {
   me: Me
 }
@@ -31,11 +32,14 @@ const AboutMe = ({ me }: AboutMeProps) => {
               <Description key={`about-me+${i}`}>{d}</Description>
             ))}
             <SocialBox>
-              <Social href="https://www.linkedin.com/in/shaghayegh-ghavami/">
+              <Social href="https://www.linkedin.com/in/shaghayegh-ghavami">
                 <Linkedin />
               </Social>
-              <Social href="https://github.com/shaghayegh-gh/">
+              <Social href="https://github.com/shaghayegh-gh">
                 <Github />
+              </Social>
+              <Social href="https://medium.com/@shaghayegh-gh">
+                <Medium />
               </Social>
             </SocialBox>
             <Resume>Download CV</Resume>

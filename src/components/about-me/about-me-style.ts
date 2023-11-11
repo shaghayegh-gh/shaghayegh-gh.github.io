@@ -40,7 +40,8 @@ export const SocialBox = styled.div`
 `
 export const Social = styled.a`
   display: inline-block;
-  background: ${({ theme }) => theme.colors.grayOutline};
+  background: ${({ theme }) => theme.colors.background};
+  opacity:.5;
   padding: 0.4rem;
   width: 30px;
   height: 30px;
@@ -49,7 +50,7 @@ export const Social = styled.a`
   cursor: pointer;
   margin-right: 0.5rem;
   :hover {
-    background: ${({ theme }) => theme.colors.background};
+    opacity:1;
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
