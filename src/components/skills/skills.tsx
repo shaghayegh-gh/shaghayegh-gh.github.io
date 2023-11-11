@@ -1,6 +1,6 @@
 
 import Container from "../container/container";
-import {Title,SkillsWrapper,Skill,ImageWrapper, Subtitle} from "./skills-style"
+import {SkillsWrapper,Skill,ImageWrapper, Subtitle} from "./skills-style"
 import Image from "components/image/image";
 import { theme } from "theme";
 
@@ -13,8 +13,7 @@ type SkillsProps = {
 
 const Skills = ({ skills }: SkillsProps) => {
   return (
-    <Container background={theme.colors.background}>
-      <Title>SKILLS</Title>
+    <Container background={theme.colors.gray}>
       <SkillsWrapper>
         {skills.map((s, i) => (
           <Skill key={`skills+${i}`}>
