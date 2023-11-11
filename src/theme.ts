@@ -6,7 +6,8 @@ export const theme: DefaultTheme = {
     gray: '#f9faff',
     grayOutline: '#efefef',
     grayText:"#939393",
-    background:"-webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%)",
+    background:' radial-gradient(590px at 8.2% 13.8%, rgb(18, 35, 60) 0%, rgb(187, 187, 187) 90%)',
+
     home:'linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab)',
   },
   radius: {
@@ -24,3 +25,6 @@ export const theme: DefaultTheme = {
     md: '680px',
   },
 }
+
+
+
